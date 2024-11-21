@@ -12,7 +12,7 @@ What it does:
 
 What it doesn't do:
 
-- search.  It is hardwired to Phoenix, although the field is included in the API.
+- handle search errors
 - store the token in the user defaults
 - store the persisted city in the user defaults for reloading on launch
 - too many "!" in the code.  Needs better error handling for most of those.
@@ -21,4 +21,3 @@ Other criticisms:
 
 - there is a lot of repeated code for text fields that could have been put into a common style.  This would also remove most of the hard-coded sizes and color values.
 - the app has a warning about publishing changes from a background thread.  It works but that needs to be fixed.
-- there is absolutely no error checking on the serach function
